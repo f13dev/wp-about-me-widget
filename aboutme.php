@@ -24,3 +24,24 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
+
+// Create the widget class
+class f13_about_me_widget extends WP_Widget
+{
+  function f13_about_me_widget()
+  {
+    // Create the widget
+  }
+  function form( $instances )
+  {
+    // Create the widget admin form
+  }
+  function update( $new_instances, $old_instances )
+  {
+    // Save the widget settings
+  }
+  function widget( $args, $instances )
+  {
+    // Display the widget
+  }
+}
